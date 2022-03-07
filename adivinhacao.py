@@ -46,7 +46,7 @@ def jogar():
         menor = numero_secreto>chute
 
         if(acertou):
-            print('Você acertou! e fez {}'.format(pontos))
+            print('Você acertou! e fez {} pontos!'.format(pontos))
             break
         else:
             if(maior):
